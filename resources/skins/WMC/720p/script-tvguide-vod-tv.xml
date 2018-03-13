@@ -620,7 +620,7 @@
 		<control type="textbox">
 			<posx>50</posx>
 			<posy>690</posy>
-			<width>400</width>
+			<width>800</width>
 			<label>[B]Genres:[/B] $INFO[Container(900001).ListItem.Genre]</label>
 			<textcolor>blue</textcolor>
 			<font>font13</font>
@@ -786,7 +786,7 @@
 		<control type="textbox">
 			<posx>220</posx>
 			<posy>690</posy>
-			<width>400</width>
+			<width>800</width>
 			<label>[B]Genres:[/B] $INFO[Container(900011).ListItem.Genre]</label>
 			<textcolor>blue</textcolor>
 			<font>font13</font>
@@ -952,7 +952,7 @@
 		<control type="textbox">
 			<posx>280</posx>
 			<posy>300</posy>
-			<width>400</width>
+			<width>800</width>
 			<label>[B]Genres:[/B] $INFO[Container(900012).ListItem.Genre]</label>
 			<textcolor>ffffffff</textcolor>
 			<font>font13</font>
@@ -1065,7 +1065,7 @@
 		<control type="textbox">
 			<posx>220</posx>
 			<posy>690</posy>
-			<width>400</width>
+			<width>800</width>
 			<label>[B]Genres:[/B] $INFO[Container(900013).ListItem.Genre]</label>
 			<textcolor>blue</textcolor>
 			<font>font13</font>
