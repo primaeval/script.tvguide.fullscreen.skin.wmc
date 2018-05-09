@@ -62,7 +62,7 @@
             <height>90</height>
             <aspectratio>keep</aspectratio>
             <texture>headerOnNow.png</texture>
-            <visible>String.IsEqual(Control.GetLabel(1001),NOW)</visible>
+            <visible>StringCompare(Control.GetLabel(1001),NOW)</visible>
         </control>
         <control type="image">
             <top>0</top>
@@ -71,7 +71,7 @@
             <height>90</height>
             <aspectratio>keep</aspectratio>
             <texture>headerOnNext.png</texture>
-            <visible>String.IsEqual(Control.GetLabel(1001),NEXT)</visible>
+            <visible>StringCompare(Control.GetLabel(1001),NEXT)</visible>
         </control>
         <control type="image">
             <top>0</top>
@@ -80,7 +80,7 @@
             <height>90</height>
             <aspectratio>keep</aspectratio>
             <texture>headerOnChannel.png</texture>
-            <visible>!String.IsEqual(Control.GetLabel(1001),NOW)+!String.IsEqual(Control.GetLabel(1001),NEXT)</visible>
+            <visible>!StringCompare(Control.GetLabel(1001),NOW)+!StringCompare(Control.GetLabel(1001),NEXT)</visible>
         </control>
 
         <control type="label">
